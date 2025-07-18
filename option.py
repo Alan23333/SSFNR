@@ -17,11 +17,11 @@ parser.add_argument('--dataset', type=str, default='CAVE',
                     help='Which dataset to train and test')
 parser.add_argument('--scale', type=int, default=8,
                     help='super resolution scale')
-parser.add_argument('--batch_size', type=int, default=2,
+parser.add_argument('--batch_size', type=int, default=16,
                     help='input batch size for training')
-parser.add_argument('--train_num', type=int, default=4000)
+parser.add_argument('--train_num', type=int, default=16000)
 parser.add_argument('--gpu_ids', default='0')
-parser.add_argument('--pre_train', type=str, default='experiment/CAVE/f8/KNLNet/model/model_latest.pt',
+parser.add_argument('--pre_train', type=str, default='experiment/CAVE/f8/SSFNet/model/model_latest.pt',
                     help='pre-trained model directory')
 parser.add_argument('--patch_size', type=int, default=96,
                     help='output patch size')
@@ -56,7 +56,7 @@ parser.add_argument('--print_every', type=int, default=100,
                     help='how many batches to wait before logging training status')
 parser.add_argument('--save_results', action='store_false',
                     help='save output results')
-parser.add_argument('--subspace', type=str, default='No',
+parser.add_argument('--subspace', type=str, default='Yes',
                     help='Is it subspace, Yes|No')
 
 args = parser.parse_args(args=[])
