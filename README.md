@@ -13,11 +13,13 @@ After downloading, please **place the files according to the following directory
 ├── beads_ms
 ├── ...
 ├── watercolors_ms
+```
 
 ## Data preprocessing
 For the first run, edit the `option.py` file and set: prepare = "Yes".
 
 ## To train:
+Set appropriate parameters in `option.py`
 ```python
 python main.py
 ```
