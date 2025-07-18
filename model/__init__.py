@@ -12,7 +12,7 @@ import model.MSST as MSST
 import model.DTNet as DTNet
 import model.MOG as MOG
 import model.MIMO as MIMO
-import model.SFformer as SFformer
+import model.SSFNet as SSFNet
 import model.DTNetChikusei as DTNetChikusei
 from utility import *
 
