@@ -70,7 +70,21 @@ Password: `37ic`
   [https://github.com/liangjiandeng/DLPan-Toolbox](https://github.com/liangjiandeng/DLPan-Toolbox)
 
 
-## Test the model
+
+## 🧪 Testing
+
+To perform testing using a pre-trained model, follow the steps below:
+
+### Step 1: Edit `option.py`
+
+- Set the `test_only` argument to `store_false` to enable **testing mode**:
+- Set the `pre_train` argument to point to the model you want to test.
+
+2. **Run the main script**:
+
+```bash
+python main.py
+```
 
 
 
