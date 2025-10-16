@@ -17,7 +17,7 @@ pip install -r requirements.txt
 
 ## Prepare dataset
 
-Datasets can be downloaded from: [https://pan.baidu.com/s/12GSZavmQdkVf3rI6OoylNA?pwd=1pbh](https://pan.baidu.com/s/12GSZavmQdkVf3rI6OoylNA?pwd=1pbh)
+Datasets can be downloaded from: [data](https://pan.baidu.com/s/12GSZavmQdkVf3rI6OoylNA?pwd=1pbh)
 
 
 ## Train the model
