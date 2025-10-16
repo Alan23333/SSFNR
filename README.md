@@ -5,7 +5,7 @@
 1. clone the repository
 
 ```bash
-git clone https://github.com/Alan23333/SSFNR.git
+[git clone https://github.com/Alan23333/SSFNR.git](https://github.com/Alan23333/SSFNR.git)
 cd SSFNR
 ```
 
