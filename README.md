@@ -42,7 +42,7 @@ data/
 
 Before training, you need to preprocess the data.
 
-1. **Set the `--prepare` flag to `Yes`** in your command line arguments to trigger dataset preprocessing.
+1. **Set the `--prepare` flag to `Yes`** in `option.py` to trigger dataset preprocessing.
 
 2. **Run the main script**:
    ```bash
@@ -75,7 +75,7 @@ Password: `37ic`
 
 To perform testing using a pre-trained model, follow the steps below:
 
-### Step 1: Edit `option.py`
+1. **Edit `option.py`**
 
 - Set the `test_only` argument to `store_false` to enable **testing mode**:
 - Set the `pre_train` argument to point to the model you want to test.
