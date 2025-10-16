@@ -5,7 +5,7 @@
 1. clone the repository
 
 ```bash
-[git clone https://github.com/Alan23333/SSFNR.git](https://github.com/Alan23333/SSFNR.git)
+git clone https://github.com/Alan23333/SSFNR.git
 cd SSFNR
 ```
 
@@ -17,7 +17,8 @@ pip install -r requirements.txt
 
 ## Prepare dataset
 
-Datasets can be downloaded from: [liangjiandeng/PanCollection](https://github.com/liangjiandeng/PanCollection).
+Datasets can be downloaded from: [https://pan.baidu.com/s/12GSZavmQdkVf3rI6OoylNA?pwd=1pbh](https://pan.baidu.com/s/12GSZavmQdkVf3rI6OoylNA?pwd=1pbh)
+
 
 ## Train the model
 
