@@ -1,6 +1,6 @@
 # Getting started
 
-## Setup environment
+## ⚙️ Setup environment
 
 1. clone the repository
 
@@ -15,12 +15,12 @@ cd SSFNR
 pip install -r requirements.txt
 ```
 
-## Prepare dataset
+## 🧠 Prepare dataset
 
 Datasets can be downloaded from: [data](https://pan.baidu.com/s/12GSZavmQdkVf3rI6OoylNA?pwd=1pbh)
 
 
-## Dataset Directory Structure
+## 🧱 Dataset Directory Structure
 
 Your dataset should be organized as follows under the `data/` directory:
 
@@ -38,15 +38,25 @@ data/
 
 ```
 
+## 🛠️ Data Preprocessing
 
-## Train the model
+Before training, you need to preprocess the data.
+
+1. **Set the `--prepare` flag to `Yes`** in your command line arguments to trigger dataset preprocessing.
+
+2. **Run the main script**:
+   ```bash
+   python main.py --prepare Yes
+
+
+## 🚀 Train the model
 
 ```bash
 python main.py
 ```
 
 
-### Weights
+### 📦 Weights
 
 You can download our trained weights from:
 [https://pan.baidu.com/s/1xFWSLX9611E2CukCpnOp1w?pwd=37ic](https://pan.baidu.com/s/1xFWSLX9611E2CukCpnOp1w?pwd=37ic)
