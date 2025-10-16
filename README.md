@@ -20,15 +20,31 @@ pip install -r requirements.txt
 Datasets can be downloaded from: [data](https://pan.baidu.com/s/12GSZavmQdkVf3rI6OoylNA?pwd=1pbh)
 
 
+## Dataset Directory Structure
+
+Your dataset should be organized as follows under the `data/` directory:
+
+```
+
+data/
+├── CAVE/
+│   ├── complete_ms_data/
+│   ├── f4/
+│   ├── f8/
+│   └── response coefficient.mat
+├── Harvard/
+├── Chikusei/
+├── Pavia/
+
+```
+
+
 ## Train the model
 
 ```bash
-bash .scripts/train_{Datasets}.sh
+python main.py
 ```
 
-> Replace `{Datasets}` with the specific dataset name used by your script.
-
-## Additional Information
 
 ### Weights
 
@@ -43,6 +59,8 @@ Password: `37ic`
 * You can also use the tools from **liangjiandeng/DLPan-Toolbox** (specifically, the `02-Test-toolbox-for-traditional-and-DL(Matlab)` directory):
   [https://github.com/liangjiandeng/DLPan-Toolbox](https://github.com/liangjiandeng/DLPan-Toolbox)
 
-### Parameter Count
 
-(Optional) Add your parameter counting notes or script here.
+## Test the model
+
+
+
