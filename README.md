@@ -46,7 +46,7 @@ Before training, you need to preprocess the data.
 
 2. **Run the main script**:
    ```bash
-   python main.py --prepare Yes
+   python main.py
 
 
 ## 🚀 Train the model
