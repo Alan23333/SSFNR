@@ -9,7 +9,13 @@ git clone https://github.com/Alan23333/SSFNR.git
 cd SSFNR
 ```
 
-2. install dependencies
+2. Install Python environment
+
+```bash
+conda create -n your_env_name python=3.8.20
+```
+
+3. install dependencies
 
 ```bash
 pip install -r requirements.txt
